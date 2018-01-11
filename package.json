@@ -1,0 +1,22 @@
+{
+    "name": "pandalight",
+    "displayName": "Panda Light",
+    "description": "Minimalist light theme inspired by IntelliJ IDEA for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "egorhm",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Panda Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Panda Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
