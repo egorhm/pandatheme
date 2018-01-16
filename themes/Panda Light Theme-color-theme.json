@@ -20,7 +20,8 @@
 		"sideBar.background": "#f3f3f3",
 		"gitDecoration.modifiedResourceForeground": "#008000",
 		"gitDecoration.untrackedResourceForeground": "#ff0000",
-		"editorSuggestWidget.background": "#f0f0f0"
+		"editorSuggestWidget.background": "#f0f0f0",
+		"sideBar.border": "#c5c5c5"
 	},
 	"tokenColors": [
 		{
