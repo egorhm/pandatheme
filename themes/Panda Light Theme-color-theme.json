@@ -3,7 +3,7 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#f0f0f0",
-		"editor.foreground": "#000000",
+		"editor.foreground": "#000000ff",
 		"editor.lineHighlightBackground": "#f5ecd5",
 		"editor.selectionBackground": "#BFDBFE",
 		"editor.selectionHighlightBackground": "#E0E0E0",
@@ -14,7 +14,13 @@
 		"statusBar.background": "#c5c5c5",
 		"statusBar.noFolderBackground": "#c5c5c5",
 		"statusBar.debuggingBackground": "#c5c5c5",
-		"statusBar.foreground": "#000000"
+		"statusBar.foreground": "#505050",
+		"foreground": "#000000",
+		"sideBar.foreground": "#303030",
+		"sideBar.background": "#f3f3f3",
+		"gitDecoration.modifiedResourceForeground": "#008000",
+		"gitDecoration.untrackedResourceForeground": "#ff0000",
+		"editorSuggestWidget.background": "#f0f0f0"
 	},
 	"tokenColors": [
 		{
@@ -119,6 +125,20 @@
 			"scope":"support.function.magic.python",
 			"settings": {
 				"foreground": "#B200B2"
+			}
+		},
+		{
+			"name": "Python: Variable Self",
+			"scope":"variable.language.special.self.python",
+			"settings": {
+				"foreground": "#94558D"
+			}
+		},
+		{
+			"name": "Python: Builtin Function",
+			"scope": "support.function.builtin.python",
+			"settings": {
+				"foreground": "#0000ff"
 			}
 		},
 		{
