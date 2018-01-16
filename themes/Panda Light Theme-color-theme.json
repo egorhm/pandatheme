@@ -142,6 +142,13 @@
 			}
 		},
 		{
+			"name": "Python: Decorator",
+			"scope": "meta.function.decorator.python",
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
 			"name": "JSON: Type Name",
 			"scope": "support.type.property-name.json",
 			"settings": {
